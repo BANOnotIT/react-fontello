@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+- "lts/*"
+
+cache:
+  directories:
+    - "node_modules"
+
+deploy:
+  provider: npm
+  email: bano.notit@gmail.com
+  api_key:
+    secure: fLD3czlpzf27039MDddqKXXfy382EdIeUEa92KLqcCn/KH/ZyTPL3iM5ZTxkp7NCZn8/E2KV0wsl7NPMp9r27vYqqIdzrAqMdUpaPzGrYLKz7bEUNgSN6oDJYmpO3xeyyeibMwrwVsStCO8H6CLKR1au19wo676xAq52IJqEfpXY1ojBzQyOPA/IHaMNBgBzwCdvtuE5fKOYSjzlpq94Mw/GvjuFoGx878OMhqqrrgBQMda7N9k8qeaiTUTDTJk09VKN89LI5HVx3GsRcB94CTBRxA2705iKnLbL2sXATigfQ2MUiFbLTAqAsCVQXWjPxSDVjUZuLgvkYxwgOACq0lBRL2gGhetvhYRHUKYASnyq1B2C5we5CwT/WB4uhyYZMfLbGDLF6Exz5udVtGExjCF5ReFcfof3TL9m4cWN0Ifzl+0oSTlfIGJdhxQd/xrjk31ATQVy3bu5FNcy6mN1kp6CdiN5yUm2tSubVWC7vENKuc5CfGyat3F/HlggBWTT0obfplb9nnsvbdctjuYiJtnRuyJzkIdMEZ2W9BH9LNQFeC5IconTUSN3XKKkrx620v875toJuN0tGVO3HiCCNqPCbMQWdZneFrC+WLP/ICrFJUAa3NkO+TOCHhrthKB/x4n2Ufhjd2MwsrtNl/sB7cQfHoUtTCGRr5x8BUOXBFM=
+  on:
+    tags: true
+    repo: BANOnotIT/react-fontello
+    all_branches: true
+  skip_cleanup: true
