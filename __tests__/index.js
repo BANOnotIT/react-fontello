@@ -12,5 +12,5 @@ test('fabric if function', () => {
 })
 
 test('fabric returns function', () => {
-    expect(fabric({config})).toBeInstanceOf(Function)
+    expect(fabric(config)).toBeInstanceOf(Function)
 })
