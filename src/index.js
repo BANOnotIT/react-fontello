@@ -24,7 +24,7 @@ type GlyphMap = { [key: GlyphName]: string }
 type Props = { className?: string, children?: string, glyph?: string }
 
 
-function fabric({config, baseClassName = config.css_prefix_text}: { config: Config, baseClassName?: string }): React.StatelessFunctionalComponent<Props> {
+function fabric(config: Config, baseClassName: string = config.css_prefix_text): React.StatelessFunctionalComponent<Props> {
 
     const
         glyphs: GlyphMap =
