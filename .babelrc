@@ -10,36 +10,15 @@
     "stage-0"
   ],
   "plugins": [
-    "transform-decorators-legacy",
-    "syntax-async-functions",
-    "external-helpers",
-    [
-      "transform-regenerator",
-      {
-        "async": true,
-        "asyncGenerators": true
-      }
-    ]
+    "external-helpers"
   ],
   "comments": false,
   "env": {
     "test": {
       "presets": [
         "env",
-        "flow",
         "react",
         "stage-0"
-      ],
-      "plugins": [
-        "transform-decorators-legacy",
-        "syntax-async-functions",
-        [
-          "transform-regenerator",
-          {
-            "async": true,
-            "asyncGenerators": true
-          }
-        ]
       ]
     }
   }
