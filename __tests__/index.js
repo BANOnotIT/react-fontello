@@ -3,7 +3,7 @@
  */
 
 const
-    fabric = require('../dist/index.esm').default,
+    fabric = require('../dist/index.cjs'),
     config = require('./config')
 
 
