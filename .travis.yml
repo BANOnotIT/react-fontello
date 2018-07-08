@@ -15,4 +15,3 @@ deploy:
     tags: true
     repo: BANOnotIT/react-fontello
     all_branches: true
-  skip_cleanup: true

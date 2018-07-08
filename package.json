@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
+  "files": "dist",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c",
@@ -11,7 +12,8 @@
     "lint": "eslint .",
     "fix_lint": "eslint . --fix",
     "test": "NODE_ENV=test jest",
-    "pretest": "npm run build"
+    "pretest": "npm run build",
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "react": ">=15.0.0"
