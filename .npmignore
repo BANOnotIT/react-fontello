@@ -3,3 +3,4 @@ __tests__/
 src/
 .*
 rollup.config.js
+yarn.lock

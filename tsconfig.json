@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es6",
+    "jsx": "react",
+    "declaration": true,
+    "lib": [
+      "ES6"
+    ]
+  },
+  "include": [
+    "index.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
