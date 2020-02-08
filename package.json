@@ -1,6 +1,6 @@
 {
   "name": "react-fontello",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "",
   "scripts": {
     "dev": "tsc -w",
@@ -10,6 +10,9 @@
     "test": "NODE_ENV=test jest",
     "pretest": "npm run build",
     "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "url": "https://github.com/BANOnotIT/react-fontello"
   },
   "peerDependencies": {
     "react": ">=15.0.0"
