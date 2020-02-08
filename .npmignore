@@ -1,6 +1,5 @@
 node_modules/
 __tests__/
-src/
 .*
-rollup.config.js
 yarn.lock
+index.tsx
