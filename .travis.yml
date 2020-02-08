@@ -1,7 +1,9 @@
 language: node_js
 node_js:
-- '7'
+  - "7"
+
 cache: yarn
+
 deploy:
   provider: npm
   email: bano.notit@gmail.com
